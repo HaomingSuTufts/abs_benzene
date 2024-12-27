@@ -1,0 +1,72 @@
+constraints: HBonds
+equilibration_steps: 10000
+friction:
+  unit: /picosecond
+  value: 1.0
+heat_bath_start:
+  unit: kelvin
+  value: 50.0
+heat_bath_step_size:
+  unit: kelvin
+  value: 10.0
+kbT:
+  unit: joule/mole
+  value: 2478.9570296023885
+lambda_list:
+- charge: 1.0
+  vdw: 1.0
+- charge: 0.8
+  vdw: 1.0
+- charge: 0.6
+  vdw: 1.0
+- charge: 0.4
+  vdw: 1.0
+- charge: 0.2
+  vdw: 1.0
+- charge: 0.0
+  vdw: 1.0
+- charge: 0.0
+  vdw: 0.98
+- charge: 0.0
+  vdw: 0.9
+- charge: 0.0
+  vdw: 0.8
+- charge: 0.0
+  vdw: 0.7
+- charge: 0.0
+  vdw: 0.6
+- charge: 0.0
+  vdw: 0.5
+- charge: 0.0
+  vdw: 0.4
+- charge: 0.0
+  vdw: 0.3
+- charge: 0.0
+  vdw: 0.2
+- charge: 0.0
+  vdw: 0.1
+- charge: 0.0
+  vdw: 0.05
+- charge: 0.0
+  vdw: 0.0
+lenth_unit: nanometer
+nonbondedCutoff:
+  unit: nanometer
+  value: 1.0
+nonbondedMethod: PME
+pressure:
+  unit: atmosphere
+  value: 1.0
+report_energy_unit: kilocalorie/mole
+simulation_steps: 5000000
+switchDistance:
+  unit: nanometer
+  value: 0.9
+temperature:
+  unit: kelvin
+  value: 298.15
+timestep:
+  unit: picosecond
+  value: 0.002
+total_simulation_steps: 5000000
+trajectory_interval: 1000

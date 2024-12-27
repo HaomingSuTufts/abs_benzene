@@ -1,0 +1,52 @@
+DEFAULT_SETTINGS:
+  constraints: HBonds
+  equilibration_steps: '10000'
+  friction: 1.0 /ps
+  nonbondedCutoff: 1.0 nm
+  nonbondedMethod: PME
+  pressure: 1.0 atm
+  simulation_steps: '5000000'
+  switchDistance: 0.9 nm
+  temperature: 298.15 K
+  timestep: 0.002 ps
+lambda_list:
+- - - 1.0
+    - 1.0
+- - - 0.8
+    - 1.0
+- - - 0.6
+    - 1.0
+- - - 0.4
+    - 1.0
+- - - 0.2
+    - 1.0
+- - - 0.0
+    - 1.0
+- - - 0.0
+    - 0.975
+- - - 0.0
+    - 0.95
+- - - 0.0
+    - 0.9
+- - - 0.0
+    - 0.8
+- - - 0.0
+    - 0.7
+- - - 0.0
+    - 0.6
+- - - 0.0
+    - 0.5
+- - - 0.0
+    - 0.4
+- - - 0.0
+    - 0.3
+- - - 0.0
+    - 0.2
+- - - 0.0
+    - 0.1
+- - - 0.0
+    - 0.05
+- - - 0.0
+    - 0.025
+- - - 0.0
+    - 0.0
